@@ -1,10 +1,3 @@
-import pandas as pd
-import numpy as np
-import matplotlib.pyplot as plt
-%matplotlib inline
-from matplotlib.pylab import rcParams
-rcParams['figure.figsize'] = 20,10
-from sklearn.preprocessing import MinMaxScaler
-scaler = MinMaxScaler(feature_range=(0, 1))
-df = pd.read_csv('TATAGLOBAL.csv')
-df.head()
+I worked with historical data about the stock prices of a publicly listed company and implement a mix of machine learning algorithms to predict the future stock price of this company, starting with simple algorithms like averaging and linear regression, and then move on to advanced techniques like Auto ARIMA and LSTM
+
+
